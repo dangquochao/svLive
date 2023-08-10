@@ -4676,7 +4676,7 @@ window.__require = function e(t, n, r) {
           this.sfs.connect(Windown_1.Windown.Define.configNetwork.hostHttps, 8080);
           this.currentHost = Windown_1.Windown.Define.configNetwork.hostHttps;
         } else {
-          this.sfs.connect(Windown_1.Windown.Define.configNetwork.hostHttps, Windown_1.Windown.Define.configNetwork.portWebSServer, false);
+          this.sfs.connect(Windown_1.Windown.Define.configNetwork.hostHttps, Windown_1.Windown.Define.configNetwork.portWebSServer, true);
           this.currentHost = Windown_1.Windown.Define.configNetwork.hostHttps;
         }
       };
@@ -24598,10 +24598,10 @@ window.__require = function e(t, n, r) {
         Windown.deviceId = null;
         Windown.Define = {
           configNetwork: {
-            hostHttps: "45.32.122.23",
+            hostHttps: "rongvang68.com",
             hostHttpsTest: "rongvang68.online",
             portWebServer: 8080,
-            portWebSServer: 8080,
+            portWebSServer: 8443,
             portSocket: 9933,
             zoneLogin: "Fish"
           },
