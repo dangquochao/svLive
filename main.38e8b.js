@@ -123,11 +123,7 @@ window.boot = function () {
 if (window.jsb) {
     var isRuntime = (typeof loadRuntime === 'function');
     if (isRuntime) {
-<<<<<<<< HEAD:main.38e8b.js
         require('src/settings.7f766.js');
-========
-        require('src/settings.67515.js');
->>>>>>>> d0ffd675ec2f39777f54a031b7269dcd3a8f4048:main.e9cbc.js
         require('src/cocos2d-runtime.js');
         if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
             require('src/physics.js');
@@ -135,11 +131,7 @@ if (window.jsb) {
         require('jsb-adapter/engine/index.js');
     }
     else {
-<<<<<<<< HEAD:main.38e8b.js
         require('src/settings.7f766.js');
-========
-        require('src/settings.67515.js');
->>>>>>>> d0ffd675ec2f39777f54a031b7269dcd3a8f4048:main.e9cbc.js
         require('src/cocos2d-jsb.js');
         if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
             require('src/physics.js');
