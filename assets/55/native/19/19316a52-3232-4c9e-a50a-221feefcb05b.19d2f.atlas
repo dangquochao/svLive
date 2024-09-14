@@ -1,0 +1,41 @@
+
+jackpot.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin
+  rotate: false
+  xy: 750, 591
+  size: 258, 47
+  orig: 258, 47
+  offset: 0, 0
+  index: -1
+coin2
+  rotate: false
+  xy: 2, 2
+  size: 258, 47
+  orig: 258, 47
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 51
+  size: 358, 358
+  orig: 358, 358
+  offset: 0, 0
+  index: -1
+glow2
+  rotate: false
+  xy: 362, 295
+  size: 116, 114
+  orig: 116, 114
+  offset: 0, 0
+  index: -1
+jackpot_win_20
+  rotate: false
+  xy: 2, 411
+  size: 746, 227
+  orig: 746, 227
+  offset: 0, 0
+  index: -1
